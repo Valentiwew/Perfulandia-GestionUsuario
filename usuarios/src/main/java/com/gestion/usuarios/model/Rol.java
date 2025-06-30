@@ -1,5 +1,7 @@
 package com.gestion.usuarios.model;
 
-public class Rol {
-
+public enum Rol {
+    CLIENTE,
+    VENDEDOR,
+    ADMINISTRADOR
 }
